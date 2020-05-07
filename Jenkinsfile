@@ -8,7 +8,7 @@ podTemplate(containers: [
   node(POD_LABEL) {
     
     stage('Run tests') {
-      git 'https://github.com/techreturners/spring_boot_helm.git'
+      git 'https://github.com/Arc-J/spring_boot_helm.git'
       container('maven') {
           sh 'mvn test'
       }
