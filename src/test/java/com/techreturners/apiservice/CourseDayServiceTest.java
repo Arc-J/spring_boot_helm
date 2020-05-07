@@ -20,8 +20,8 @@ public class CourseDayServiceTest {
 
     @Test
     public void invalidDayTest() {
-        CourseDay courseDay = courseDayService.getDay(6);
-        assertEquals("You know its only five days?", courseDay.getDescription());
+        CourseDay courseDay = courseDayService.getDay(7);
+        assertEquals("You know its only five days? Plus one scheduled rest day.", courseDay.getDescription());
     }
 
 }
