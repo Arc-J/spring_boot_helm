@@ -31,6 +31,10 @@ public class CourseDayServiceImpl implements CourseDayService {
                 description = "Operability";
                 break;
             }
+            case 6: {
+                description = "Saturday, have a day off!";
+                break;
+            }
         }
         return new CourseDay(description);
     }
