@@ -8,7 +8,7 @@ public class CourseDayServiceImpl implements CourseDayService {
     @Override
     public CourseDay getDay(int day) {
 
-        String description = "You know its only five days?";
+        String description = "You know its only five days? Plus one scheduled rest day.";
         
         switch(day) {
             case 1: {
